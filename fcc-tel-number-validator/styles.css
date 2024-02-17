@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(27, 27, 111);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin: 5em;
+    gap: 1em;
+}
+
+label {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button {
+    border: 1px solid rgb(27, 27, 111);
+    border-radius: 15px;
+    background-color: inherit;
+    color: antiquewhite;
+    padding: 1em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(48, 48, 189);
+    cursor: pointer;
+    transition: .6s;
+}
+
+input {
+    border-radius: 15px;
+    padding: .8em 1em;
+    border: none;
+    box-shadow: 2px 3px 9px 0px;
+}
